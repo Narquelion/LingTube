@@ -23,7 +23,7 @@ def convert_to_seconds (timestamp) :
         time_ms = hrs + mins + secs + msecs
         time_s = float(time_ms)/float(1000)
         return time_s
-
+#test
 def clean_text (text,langcode):
     """ Automated cleaning of text.
     """
